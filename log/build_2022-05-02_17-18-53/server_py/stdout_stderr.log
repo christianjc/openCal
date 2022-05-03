@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/server_py/server_py.egg-info
+writing ../../build/server_py/server_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/server_py/server_py.egg-info/dependency_links.txt
+writing entry points to ../../build/server_py/server_py.egg-info/entry_points.txt
+writing requirements to ../../build/server_py/server_py.egg-info/requires.txt
+writing top-level names to ../../build/server_py/server_py.egg-info/top_level.txt
+writing manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cjc/openCal/build/server_py/build
+creating /home/cjc/openCal/build/server_py/build/lib
+creating /home/cjc/openCal/build/server_py/build/lib/server_py
+copying server_py/server.py -> /home/cjc/openCal/build/server_py/build/lib/server_py
+copying server_py/__init__.py -> /home/cjc/openCal/build/server_py/build/lib/server_py
+running install
+running install_lib
+creating /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py
+copying /home/cjc/openCal/build/server_py/build/lib/server_py/server.py -> /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py
+copying /home/cjc/openCal/build/server_py/build/lib/server_py/__init__.py -> /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py
+byte-compiling /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py/server.py to server.cpython-38.pyc
+byte-compiling /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/cjc/openCal/install/server_py/share/ament_index
+creating /home/cjc/openCal/install/server_py/share/ament_index/resource_index
+creating /home/cjc/openCal/install/server_py/share/ament_index/resource_index/packages
+copying resource/server_py -> /home/cjc/openCal/install/server_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/cjc/openCal/install/server_py/share/server_py
+running install_egg_info
+Copying ../../build/server_py/server_py.egg-info to /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing server script to /home/cjc/openCal/install/server_py/lib/server_py
+writing list of installed files to '/home/cjc/openCal/build/server_py/install.log'

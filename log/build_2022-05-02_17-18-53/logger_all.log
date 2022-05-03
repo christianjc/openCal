@@ -1,0 +1,297 @@
+[0.538s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.538s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82584640>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82584640>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff82584b80>)
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.557s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cjc/openCal'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_cpp) by extension 'ros'
+[0.629s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller_cpp' with type 'ros.ament_cmake' and name 'motor_controller_cpp'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller_py) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller_py' with type 'ros.ament_python' and name 'motor_controller_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/server_py) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/server_py' with type 'ros.ament_python' and name 'server_py'
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjc/openCal/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjc/openCal/install/interfaces', 'merge_install': False, 'path': '/home/cjc/openCal/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.709s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjc/openCal/build/motor_controller_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjc/openCal/install/motor_controller_cpp', 'merge_install': False, 'path': '/home/cjc/openCal/src/motor_controller_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_target' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'motor_controller_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjc/openCal/build/motor_controller_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjc/openCal/install/motor_controller_py', 'merge_install': False, 'path': '/home/cjc/openCal/src/motor_controller_py', 'symlink_install': False, 'test_result_base': None}
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_target' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'server_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'server_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cjc/openCal/build/server_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cjc/openCal/install/server_py', 'merge_install': False, 'path': '/home/cjc/openCal/src/server_py', 'symlink_install': False, 'test_result_base': None}
+[0.732s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cjc/openCal/src/interfaces' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cjc/openCal/src/interfaces'
+[0.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/interfaces
+[5.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/interfaces
+[5.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/interfaces -- -j4 -l4
+[5.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/interfaces -- -j4 -l4
+[5.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/interfaces
+[5.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[5.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/interfaces
+[5.649s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces' for CMake module files
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces' for CMake config files
+[5.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[5.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[5.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[5.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[5.667s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/bin'
+[5.667s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/lib/pkgconfig/interfaces.pc'
+[5.668s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/lib/python3.8/site-packages'
+[5.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.ps1'
+[5.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/interfaces/share/interfaces/package.dsv'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.sh'
+[5.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.bash'
+[5.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.zsh'
+[5.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/interfaces/share/colcon-core/packages/interfaces)
+[5.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[5.788s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces' for CMake module files
+[5.792s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces' for CMake config files
+[5.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[5.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[5.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[5.802s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/bin'
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/lib/pkgconfig/interfaces.pc'
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/interfaces/lib/python3.8/site-packages'
+[5.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.ps1'
+[5.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/interfaces/share/interfaces/package.dsv'
+[5.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.sh'
+[5.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.bash'
+[5.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/interfaces/share/interfaces/package.zsh'
+[5.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/interfaces/share/colcon-core/packages/interfaces)
+[5.815s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cjc/openCal/src/motor_controller_cpp' with build type 'ament_cmake'
+[5.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cjc/openCal/src/motor_controller_cpp'
+[5.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.836s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cjc/openCal/src/motor_controller_py' with build type 'ament_python'
+[5.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller_py', 'ament_prefix_path')
+[5.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/ament_prefix_path.ps1'
+[5.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/ament_prefix_path.dsv'
+[5.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/ament_prefix_path.sh'
+[5.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.866s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cjc/openCal/src/server_py' with build type 'ament_python'
+[5.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_py', 'ament_prefix_path')
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/server_py/share/server_py/hook/ament_prefix_path.ps1'
+[5.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/server_py/share/server_py/hook/ament_prefix_path.dsv'
+[5.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/server_py/share/server_py/hook/ament_prefix_path.sh'
+[5.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/motor_controller_cpp': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/motor_controller_cpp
+[7.074s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cjc/openCal/src/motor_controller_py'
+[7.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.230s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cjc/openCal/src/server_py'
+[8.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/src/server_py': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces PYTHONPATH=/home/cjc/openCal/install/server_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_py build --build-base /home/cjc/openCal/build/server_py/build install --prefix /home/cjc/openCal/install/server_py --record /home/cjc/openCal/build/server_py/install.log --single-version-externally-managed
+[10.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/src/motor_controller_py': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces PYTHONPATH=/home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_controller_py build --build-base /home/cjc/openCal/build/motor_controller_py/build install --prefix /home/cjc/openCal/install/motor_controller_py --record /home/cjc/openCal/build/motor_controller_py/install.log --single-version-externally-managed
+[11.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/motor_controller_cpp
+[11.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/motor_controller_cpp': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/motor_controller_cpp -- -j4 -l4
+[11.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/motor_controller_cpp -- -j4 -l4
+[12.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cjc/openCal/build/motor_controller_cpp': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/motor_controller_cpp
+[12.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller_cpp)
+[12.209s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp' for CMake module files
+[12.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/build/motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces:/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/motor_controller_cpp
+[12.216s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp' for CMake config files
+[12.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller_cpp', 'cmake_prefix_path')
+[12.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.ps1'
+[12.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.dsv'
+[12.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.sh'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib'
+[12.253s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/bin'
+[12.255s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib/pkgconfig/motor_controller_cpp.pc'
+[12.256s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib/python3.8/site-packages'
+[12.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.ps1'
+[12.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.dsv'
+[12.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.sh'
+[12.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.bash'
+[12.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.zsh'
+[12.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/motor_controller_cpp/share/colcon-core/packages/motor_controller_cpp)
+[12.363s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py' for CMake module files
+[12.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/src/server_py' returned '0': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces PYTHONPATH=/home/cjc/openCal/install/server_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server_py build --build-base /home/cjc/openCal/build/server_py/build install --prefix /home/cjc/openCal/install/server_py --record /home/cjc/openCal/build/server_py/install.log --single-version-externally-managed
+[12.369s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py' for CMake config files
+[12.372s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py/lib'
+[12.373s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py/bin'
+[12.373s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py/lib/pkgconfig/server_py.pc'
+[12.374s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/server_py/lib/python3.8/site-packages'
+[12.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('server_py', 'pythonpath')
+[12.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/server_py/share/server_py/hook/pythonpath.ps1'
+[12.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/server_py/share/server_py/hook/pythonpath.dsv'
+[12.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/server_py/share/server_py/hook/pythonpath.sh'
+[12.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(server_py)
+[12.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/server_py/share/server_py/package.ps1'
+[12.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/server_py/share/server_py/package.dsv'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/server_py/share/server_py/package.sh'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/server_py/share/server_py/package.bash'
+[12.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/server_py/share/server_py/package.zsh'
+[12.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/server_py/share/colcon-core/packages/server_py)
+[12.400s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py' for CMake module files
+[12.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cjc/openCal/src/motor_controller_py' returned '0': AMENT_PREFIX_PATH=/home/cjc/openCal/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cjc/openCal/install/interfaces PYTHONPATH=/home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_controller_py build --build-base /home/cjc/openCal/build/motor_controller_py/build install --prefix /home/cjc/openCal/install/motor_controller_py --record /home/cjc/openCal/build/motor_controller_py/install.log --single-version-externally-managed
+[12.404s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py' for CMake config files
+[12.407s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py/lib'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py/bin'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py/lib/pkgconfig/motor_controller_py.pc'
+[12.408s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages'
+[12.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller_py', 'pythonpath')
+[12.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/pythonpath.ps1'
+[12.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/pythonpath.dsv'
+[12.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/hook/pythonpath.sh'
+[12.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller_py)
+[12.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/package.ps1'
+[12.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/package.dsv'
+[12.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/package.sh'
+[12.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/package.bash'
+[12.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_py/share/motor_controller_py/package.zsh'
+[12.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/motor_controller_py/share/colcon-core/packages/motor_controller_py)
+[12.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller_cpp)
+[12.435s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp' for CMake module files
+[12.438s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp' for CMake config files
+[12.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller_cpp', 'cmake_prefix_path')
+[12.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.ps1'
+[12.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.dsv'
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/hook/cmake_prefix_path.sh'
+[12.447s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib'
+[12.447s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/bin'
+[12.447s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib/pkgconfig/motor_controller_cpp.pc'
+[12.448s] Level 1:colcon.colcon_core.environment:checking '/home/cjc/openCal/install/motor_controller_cpp/lib/python3.8/site-packages'
+[12.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.ps1'
+[12.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.dsv'
+[12.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.sh'
+[12.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.bash'
+[12.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.zsh'
+[12.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cjc/openCal/install/motor_controller_cpp/share/colcon-core/packages/motor_controller_cpp)
+[12.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.463s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.483s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.484s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.511s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[37.512s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjc/openCal/install/local_setup.ps1'
+[37.524s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cjc/openCal/install/_local_setup_util_ps1.py'
+[37.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjc/openCal/install/setup.ps1'
+[37.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjc/openCal/install/local_setup.sh'
+[37.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cjc/openCal/install/_local_setup_util_sh.py'
+[37.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjc/openCal/install/setup.sh'
+[37.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjc/openCal/install/local_setup.bash'
+[37.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjc/openCal/install/setup.bash'
+[37.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cjc/openCal/install/local_setup.zsh'
+[37.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cjc/openCal/install/setup.zsh'

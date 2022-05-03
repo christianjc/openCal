@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001169] (motor_controller_cpp) JobQueued: {'identifier': 'motor_controller_cpp', 'dependencies': OrderedDict([('interfaces', '/home/cjc/openCal/install/interfaces')])}
+[0.001862] (motor_controller_py) JobQueued: {'identifier': 'motor_controller_py', 'dependencies': OrderedDict([('interfaces', '/home/cjc/openCal/install/interfaces')])}
+[0.002356] (server_py) JobQueued: {'identifier': 'server_py', 'dependencies': OrderedDict([('interfaces', '/home/cjc/openCal/install/interfaces')])}
+[0.003485] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.045033] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.046034] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/cjc/openCal/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/interfaces'], 'cwd': '/home/cjc/openCal/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099237] (-) TimerEvent: {}
+[0.200355] (-) TimerEvent: {}
+[0.301196] (-) TimerEvent: {}
+[0.402039] (-) TimerEvent: {}
+[0.502945] (-) TimerEvent: {}
+[0.603949] (-) TimerEvent: {}
+[0.704849] (-) TimerEvent: {}
+[0.805733] (-) TimerEvent: {}
+[0.906615] (-) TimerEvent: {}
+[1.007593] (-) TimerEvent: {}
+[1.108383] (-) TimerEvent: {}
+[1.135191] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.208582] (-) TimerEvent: {}
+[1.309430] (-) TimerEvent: {}
+[1.410524] (-) TimerEvent: {}
+[1.511527] (-) TimerEvent: {}
+[1.612478] (-) TimerEvent: {}
+[1.713384] (-) TimerEvent: {}
+[1.814226] (-) TimerEvent: {}
+[1.871645] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.902057] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.914449] (-) TimerEvent: {}
+[2.015267] (-) TimerEvent: {}
+[2.116225] (-) TimerEvent: {}
+[2.217002] (-) TimerEvent: {}
+[2.311584] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.317133] (-) TimerEvent: {}
+[2.320689] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.417383] (-) TimerEvent: {}
+[2.518320] (-) TimerEvent: {}
+[2.602065] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.618533] (-) TimerEvent: {}
+[2.639307] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.641169] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.653002] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.718779] (-) TimerEvent: {}
+[2.819551] (-) TimerEvent: {}
+[2.920385] (-) TimerEvent: {}
+[2.955303] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.959760] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.020621] (-) TimerEvent: {}
+[3.121341] (-) TimerEvent: {}
+[3.222150] (-) TimerEvent: {}
+[3.273453] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.311259] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.312866] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.322275] (-) TimerEvent: {}
+[3.351611] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[3.422453] (-) TimerEvent: {}
+[3.492909] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.493623] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.522753] (-) TimerEvent: {}
+[3.623561] (-) TimerEvent: {}
+[3.724309] (-) TimerEvent: {}
+[3.825259] (-) TimerEvent: {}
+[3.925865] (-) TimerEvent: {}
+[4.024936] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.025966] (-) TimerEvent: {}
+[4.126538] (-) TimerEvent: {}
+[4.227333] (-) TimerEvent: {}
+[4.328417] (-) TimerEvent: {}
+[4.429065] (-) TimerEvent: {}
+[4.448700] (interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.461533] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.469295] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.483629] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.492813] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.496485] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/cjc/openCal/build/interfaces\n'}
+[4.507954] (interfaces) CommandEnded: {'returncode': 0}
+[4.509764] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[4.512039] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjc/openCal/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/cjc/openCal/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[4.529293] (-) TimerEvent: {}
+[4.630205] (-) TimerEvent: {}
+[4.658115] (interfaces) CommandEnded: {'returncode': 0}
+[4.730563] (-) TimerEvent: {}
+[4.745821] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.784028] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjc/openCal/build/interfaces'], 'cwd': '/home/cjc/openCal/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[4.820645] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.842184] (-) TimerEvent: {}
+[4.853818] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.856740] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.859241] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.861115] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.863004] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.864499] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.865372] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.866255] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.867259] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.868123] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.868966] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/package.dsv\n'}
+[4.870060] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.871111] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.871932] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.872809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/interfaces/share/interfaces/package.xml\n'}
+[4.877999] (interfaces) CommandEnded: {'returncode': 0}
+[4.943682] (-) TimerEvent: {}
+[5.045886] (-) TimerEvent: {}
+[5.077664] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[5.083937] (motor_controller_cpp) JobStarted: {'identifier': 'motor_controller_cpp'}
+[5.098874] (motor_controller_py) JobStarted: {'identifier': 'motor_controller_py'}
+[5.128969] (server_py) JobStarted: {'identifier': 'server_py'}
+[5.146091] (-) TimerEvent: {}
+[5.165668] (motor_controller_cpp) JobProgress: {'identifier': 'motor_controller_cpp', 'progress': 'cmake'}
+[5.166696] (motor_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/cjc/openCal/src/motor_controller_cpp', '-DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/motor_controller_cpp'], 'cwd': '/home/cjc/openCal/build/motor_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/motor_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic')]), 'shell': False}
+[5.246553] (-) TimerEvent: {}
+[5.347988] (-) TimerEvent: {}
+[5.449474] (-) TimerEvent: {}
+[5.550346] (-) TimerEvent: {}
+[5.651219] (-) TimerEvent: {}
+[5.752263] (-) TimerEvent: {}
+[5.853444] (-) TimerEvent: {}
+[5.954305] (-) TimerEvent: {}
+[6.055105] (-) TimerEvent: {}
+[6.156068] (-) TimerEvent: {}
+[6.257110] (-) TimerEvent: {}
+[6.358206] (-) TimerEvent: {}
+[6.366135] (motor_controller_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.369172] (motor_controller_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.371573] (motor_controller_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.372654] (motor_controller_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.374395] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.377809] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.383602] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.384744] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.385226] (motor_controller_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.458390] (-) TimerEvent: {}
+[6.559396] (-) TimerEvent: {}
+[6.565289] (motor_controller_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.568915] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.659580] (-) TimerEvent: {}
+[6.760527] (-) TimerEvent: {}
+[6.861317] (-) TimerEvent: {}
+[6.880990] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.918434] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.920371] (motor_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.941244] (motor_controller_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[6.961450] (-) TimerEvent: {}
+[7.062158] (-) TimerEvent: {}
+[7.063544] (motor_controller_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.064253] (motor_controller_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.162307] (-) TimerEvent: {}
+[7.263091] (-) TimerEvent: {}
+[7.364124] (-) TimerEvent: {}
+[7.464834] (-) TimerEvent: {}
+[7.516391] (motor_controller_cpp) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/cjc/openCal/install/interfaces/share/interfaces/cmake)\n'}
+[7.537231] (motor_controller_cpp) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)\n'}
+[7.565008] (-) TimerEvent: {}
+[7.666194] (-) TimerEvent: {}
+[7.767930] (-) TimerEvent: {}
+[7.842604] (motor_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.868103] (-) TimerEvent: {}
+[7.922243] (motor_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[7.968238] (-) TimerEvent: {}
+[8.069577] (-) TimerEvent: {}
+[8.170899] (-) TimerEvent: {}
+[8.272321] (-) TimerEvent: {}
+[8.373596] (-) TimerEvent: {}
+[8.475336] (-) TimerEvent: {}
+[8.565398] (motor_controller_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.575498] (-) TimerEvent: {}
+[8.677027] (-) TimerEvent: {}
+[8.777711] (-) TimerEvent: {}
+[8.837191] (motor_controller_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[8.877889] (-) TimerEvent: {}
+[8.978932] (-) TimerEvent: {}
+[9.080318] (-) TimerEvent: {}
+[9.181844] (-) TimerEvent: {}
+[9.283279] (-) TimerEvent: {}
+[9.384875] (-) TimerEvent: {}
+[9.485602] (-) TimerEvent: {}
+[9.528747] (motor_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.585976] (-) TimerEvent: {}
+[9.687896] (-) TimerEvent: {}
+[9.788941] (-) TimerEvent: {}
+[9.891364] (-) TimerEvent: {}
+[9.937248] (server_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/server_py', 'build', '--build-base', '/home/cjc/openCal/build/server_py/build', 'install', '--prefix', '/home/cjc/openCal/install/server_py', '--record', '/home/cjc/openCal/build/server_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/cjc/openCal/src/server_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cjc', 'SSH_CLIENT': '172.20.10.3 59039 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cjc', 'OLDPWD': '/home/cjc/openCal/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cjc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/cjc/openCal/install/interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/cjc/openCal/build/server_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 59039 172.20.10.13 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cjc/openCal/install/server_py/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/cjc/openCal/install/interfaces'}, 'shell': False}
+[9.951933] (motor_controller_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller_py', 'build', '--build-base', '/home/cjc/openCal/build/motor_controller_py/build', 'install', '--prefix', '/home/cjc/openCal/install/motor_controller_py', '--record', '/home/cjc/openCal/build/motor_controller_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/cjc/openCal/src/motor_controller_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cjc', 'SSH_CLIENT': '172.20.10.3 59039 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cjc', 'OLDPWD': '/home/cjc/openCal/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cjc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/cjc/openCal/install/interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/cjc/openCal/build/motor_controller_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.3 59039 172.20.10.13 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/cjc/openCal/install/interfaces'}, 'shell': False}
+[9.986855] (motor_controller_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[9.991463] (-) TimerEvent: {}
+[10.092998] (-) TimerEvent: {}
+[10.194924] (-) TimerEvent: {}
+[10.296477] (-) TimerEvent: {}
+[10.398089] (-) TimerEvent: {}
+[10.452907] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.460647] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.461475] (motor_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjc/openCal/src/motor_controller_cpp/include>\n'}
+[10.461981] (motor_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.467202] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.467786] (motor_controller_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.471381] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.479048] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.479745] (motor_controller_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.482190] (motor_controller_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.498239] (-) TimerEvent: {}
+[10.501797] (motor_controller_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.526135] (motor_controller_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[10.532844] (motor_controller_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/cjc/openCal/build/motor_controller_cpp\n'}
+[10.565520] (motor_controller_cpp) CommandEnded: {'returncode': 0}
+[10.567794] (motor_controller_cpp) JobProgress: {'identifier': 'motor_controller_cpp', 'progress': 'build'}
+[10.569005] (motor_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjc/openCal/build/motor_controller_cpp', '--', '-j4', '-l4'], 'cwd': '/home/cjc/openCal/build/motor_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/motor_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic')]), 'shell': False}
+[10.598537] (-) TimerEvent: {}
+[10.700117] (-) TimerEvent: {}
+[10.742045] (motor_controller_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller\x1b[0m\n'}
+[10.790197] (motor_controller_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[10.800301] (-) TimerEvent: {}
+[10.901884] (-) TimerEvent: {}
+[10.969629] (motor_controller_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_controller\x1b[0m\n'}
+[11.002085] (-) TimerEvent: {}
+[11.104039] (-) TimerEvent: {}
+[11.149981] (server_py) StdoutLine: {'line': b'running egg_info\n'}
+[11.153731] (server_py) StdoutLine: {'line': b'creating ../../build/server_py/server_py.egg-info\n'}
+[11.155109] (server_py) StdoutLine: {'line': b'writing ../../build/server_py/server_py.egg-info/PKG-INFO\n'}
+[11.156897] (server_py) StdoutLine: {'line': b'writing dependency_links to ../../build/server_py/server_py.egg-info/dependency_links.txt\n'}
+[11.159515] (server_py) StdoutLine: {'line': b'writing entry points to ../../build/server_py/server_py.egg-info/entry_points.txt\n'}
+[11.160713] (server_py) StdoutLine: {'line': b'writing requirements to ../../build/server_py/server_py.egg-info/requires.txt\n'}
+[11.161735] (server_py) StdoutLine: {'line': b'writing top-level names to ../../build/server_py/server_py.egg-info/top_level.txt\n'}
+[11.173192] (motor_controller_py) StdoutLine: {'line': b'running egg_info\n'}
+[11.175470] (motor_controller_py) StdoutLine: {'line': b'creating ../../build/motor_controller_py/motor_controller_py.egg-info\n'}
+[11.176428] (motor_controller_py) StdoutLine: {'line': b'writing ../../build/motor_controller_py/motor_controller_py.egg-info/PKG-INFO\n'}
+[11.177715] (server_py) StdoutLine: {'line': b"writing manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'\n"}
+[11.179040] (motor_controller_py) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller_py/motor_controller_py.egg-info/dependency_links.txt\n'}
+[11.179954] (motor_controller_py) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller_py/motor_controller_py.egg-info/entry_points.txt\n'}
+[11.181030] (motor_controller_py) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller_py/motor_controller_py.egg-info/requires.txt\n'}
+[11.181670] (motor_controller_py) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller_py/motor_controller_py.egg-info/top_level.txt\n'}
+[11.187406] (motor_controller_py) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller_py/motor_controller_py.egg-info/SOURCES.txt'\n"}
+[11.204173] (-) TimerEvent: {}
+[11.211359] (motor_controller_cpp) StdoutLine: {'line': b'[100%] Built target motor_controller\n'}
+[11.256603] (motor_controller_cpp) CommandEnded: {'returncode': 0}
+[11.304619] (-) TimerEvent: {}
+[11.322930] (server_py) StdoutLine: {'line': b"reading manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'\n"}
+[11.326219] (server_py) StdoutLine: {'line': b"writing manifest file '../../build/server_py/server_py.egg-info/SOURCES.txt'\n"}
+[11.327126] (server_py) StdoutLine: {'line': b'running build\n'}
+[11.327957] (server_py) StdoutLine: {'line': b'running build_py\n'}
+[11.329628] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/server_py/build\n'}
+[11.330246] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/server_py/build/lib\n'}
+[11.331268] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/server_py/build/lib/server_py\n'}
+[11.332606] (server_py) StdoutLine: {'line': b'copying server_py/server.py -> /home/cjc/openCal/build/server_py/build/lib/server_py\n'}
+[11.333173] (server_py) StdoutLine: {'line': b'copying server_py/__init__.py -> /home/cjc/openCal/build/server_py/build/lib/server_py\n'}
+[11.333769] (server_py) StdoutLine: {'line': b'running install\n'}
+[11.334891] (motor_controller_py) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller_py/motor_controller_py.egg-info/SOURCES.txt'\n"}
+[11.336105] (server_py) StdoutLine: {'line': b'running install_lib\n'}
+[11.338663] (motor_controller_py) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller_py/motor_controller_py.egg-info/SOURCES.txt'\n"}
+[11.339658] (motor_controller_py) StdoutLine: {'line': b'running build\n'}
+[11.340345] (motor_controller_py) StdoutLine: {'line': b'running build_py\n'}
+[11.342413] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py\n'}
+[11.343011] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/motor_controller_py/build\n'}
+[11.343920] (server_py) StdoutLine: {'line': b'copying /home/cjc/openCal/build/server_py/build/lib/server_py/server.py -> /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py\n'}
+[11.344916] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/motor_controller_py/build/lib\n'}
+[11.345778] (server_py) StdoutLine: {'line': b'copying /home/cjc/openCal/build/server_py/build/lib/server_py/__init__.py -> /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py\n'}
+[11.347077] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/build/motor_controller_py/build/lib/motor_controller_py\n'}
+[11.347790] (motor_controller_py) StdoutLine: {'line': b'copying motor_controller_py/__init__.py -> /home/cjc/openCal/build/motor_controller_py/build/lib/motor_controller_py\n'}
+[11.348603] (motor_controller_py) StdoutLine: {'line': b'copying motor_controller_py/motor_controller.py -> /home/cjc/openCal/build/motor_controller_py/build/lib/motor_controller_py\n'}
+[11.349308] (server_py) StdoutLine: {'line': b'byte-compiling /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py/server.py to server.cpython-38.pyc\n'}
+[11.350881] (motor_controller_py) StdoutLine: {'line': b'running install\n'}
+[11.351570] (motor_controller_py) StdoutLine: {'line': b'running install_lib\n'}
+[11.352170] (server_py) StdoutLine: {'line': b'byte-compiling /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py/__init__.py to __init__.cpython-38.pyc\n'}
+[11.352809] (server_py) StdoutLine: {'line': b'running install_data\n'}
+[11.354627] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/server_py/share/ament_index\n'}
+[11.355712] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/server_py/share/ament_index/resource_index\n'}
+[11.356382] (server_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/server_py/share/ament_index/resource_index/packages\n'}
+[11.357466] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py\n'}
+[11.358109] (server_py) StdoutLine: {'line': b'copying resource/server_py -> /home/cjc/openCal/install/server_py/share/ament_index/resource_index/packages\n'}
+[11.358804] (motor_controller_py) StdoutLine: {'line': b'copying /home/cjc/openCal/build/motor_controller_py/build/lib/motor_controller_py/__init__.py -> /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py\n'}
+[11.359806] (server_py) StdoutLine: {'line': b'copying package.xml -> /home/cjc/openCal/install/server_py/share/server_py\n'}
+[11.361740] (motor_controller_py) StdoutLine: {'line': b'copying /home/cjc/openCal/build/motor_controller_py/build/lib/motor_controller_py/motor_controller.py -> /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py\n'}
+[11.362512] (server_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.363377] (motor_controller_py) StdoutLine: {'line': b'byte-compiling /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py/__init__.py to __init__.cpython-38.pyc\n'}
+[11.364739] (motor_controller_py) StdoutLine: {'line': b'byte-compiling /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py/motor_controller.py to motor_controller.cpython-38.pyc\n'}
+[11.366765] (motor_controller_py) StdoutLine: {'line': b'running install_data\n'}
+[11.368490] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/motor_controller_py/share/ament_index\n'}
+[11.370425] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/motor_controller_py/share/ament_index/resource_index\n'}
+[11.380011] (server_py) StdoutLine: {'line': b'Copying ../../build/server_py/server_py.egg-info to /home/cjc/openCal/install/server_py/lib/python3.8/site-packages/server_py-0.0.0-py3.8.egg-info\n'}
+[11.381018] (motor_controller_py) StdoutLine: {'line': b'creating /home/cjc/openCal/install/motor_controller_py/share/ament_index/resource_index/packages\n'}
+[11.381603] (motor_controller_cpp) JobProgress: {'identifier': 'motor_controller_cpp', 'progress': 'install'}
+[11.381834] (motor_controller_py) StdoutLine: {'line': b'copying resource/motor_controller_py -> /home/cjc/openCal/install/motor_controller_py/share/ament_index/resource_index/packages\n'}
+[11.382360] (motor_controller_py) StdoutLine: {'line': b'copying package.xml -> /home/cjc/openCal/install/motor_controller_py/share/motor_controller_py\n'}
+[11.382846] (motor_controller_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.383446] (motor_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjc/openCal/build/motor_controller_cpp'], 'cwd': '/home/cjc/openCal/build/motor_controller_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cjc'), ('SSH_CLIENT', '172.20.10.3 59039 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cjc'), ('OLDPWD', '/home/cjc/openCal/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'cjc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/cjc/openCal/build/motor_controller_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.3 59039 172.20.10.13 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cjc/openCal/install/interfaces:/opt/ros/galactic')]), 'shell': False}
+[11.386949] (server_py) StdoutLine: {'line': b'running install_scripts\n'}
+[11.387967] (motor_controller_py) StdoutLine: {'line': b'Copying ../../build/motor_controller_py/motor_controller_py.egg-info to /home/cjc/openCal/install/motor_controller_py/lib/python3.8/site-packages/motor_controller_py-0.0.0-py3.8.egg-info\n'}
+[11.389455] (motor_controller_py) StdoutLine: {'line': b'running install_scripts\n'}
+[11.404820] (-) TimerEvent: {}
+[11.426109] (motor_controller_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.428230] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/lib/motor_controller_cpp/motor_controller\n'}
+[11.430884] (motor_controller_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cjc/openCal/install/motor_controller_cpp/lib/motor_controller_cpp/motor_controller" to ""\n'}
+[11.432031] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/ament_index/resource_index/package_run_dependencies/motor_controller_cpp\n'}
+[11.433906] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/ament_index/resource_index/parent_prefix_path/motor_controller_cpp\n'}
+[11.435630] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/environment/ament_prefix_path.sh\n'}
+[11.436911] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/environment/ament_prefix_path.dsv\n'}
+[11.438315] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/environment/path.sh\n'}
+[11.439773] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/environment/path.dsv\n'}
+[11.441036] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/local_setup.bash\n'}
+[11.442628] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/local_setup.sh\n'}
+[11.444100] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/local_setup.zsh\n'}
+[11.445438] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/local_setup.dsv\n'}
+[11.447289] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.dsv\n'}
+[11.448924] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/ament_index/resource_index/packages/motor_controller_cpp\n'}
+[11.450436] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/cmake/motor_controller_cppConfig.cmake\n'}
+[11.451593] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/cmake/motor_controller_cppConfig-version.cmake\n'}
+[11.452977] (motor_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/cjc/openCal/install/motor_controller_cpp/share/motor_controller_cpp/package.xml\n'}
+[11.456061] (server_py) StdoutLine: {'line': b'Installing server script to /home/cjc/openCal/install/server_py/lib/server_py\n'}
+[11.459517] (server_py) StdoutLine: {'line': b"writing list of installed files to '/home/cjc/openCal/build/server_py/install.log'\n"}
+[11.467583] (motor_controller_cpp) CommandEnded: {'returncode': 0}
+[11.488189] (motor_controller_py) StdoutLine: {'line': b'Installing motor_controller script to /home/cjc/openCal/install/motor_controller_py/lib/motor_controller_py\n'}
+[11.493016] (motor_controller_py) StdoutLine: {'line': b"writing list of installed files to '/home/cjc/openCal/build/motor_controller_py/install.log'\n"}
+[11.506258] (-) TimerEvent: {}
+[11.612128] (-) TimerEvent: {}
+[11.621948] (server_py) CommandEnded: {'returncode': 0}
+[11.655975] (server_py) JobEnded: {'identifier': 'server_py', 'rc': 0}
+[11.663885] (motor_controller_py) CommandEnded: {'returncode': 0}
+[11.689978] (motor_controller_py) JobEnded: {'identifier': 'motor_controller_py', 'rc': 0}
+[11.712211] (-) TimerEvent: {}
+[11.722613] (motor_controller_cpp) JobEnded: {'identifier': 'motor_controller_cpp', 'rc': 0}
+[11.725751] (-) EventReactorShutdown: {}

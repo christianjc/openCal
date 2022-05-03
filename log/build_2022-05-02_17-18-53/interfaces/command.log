@@ -1,0 +1,6 @@
+Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/interfaces
+Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cjc/openCal/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/cjc/openCal/install/interfaces
+Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/interfaces -- -j4 -l4
+Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cjc/openCal/build/interfaces -- -j4 -l4
+Invoking command in '/home/cjc/openCal/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/interfaces
+Invoked command in '/home/cjc/openCal/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cjc/openCal/build/interfaces
